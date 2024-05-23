@@ -1,0 +1,68 @@
+﻿<header class="header-section rtl-area" id="header-section">
+  
+    <div class="shape-area">
+        <img src="img/shape-1.png" class="shape-1" alt="image">
+        <img src="img/shape-2.png" class="shape-2" alt="image">
+        <img src="img/shape-3.png" class="shape-3" alt="image">
+        <img src="img/shape-4.png" class="shape-4" alt="image">
+        <img src="img/shape-5.png" class="shape-5" alt="image">
+
+        <img src="img/star-1.png" class="shape-6" alt="image">
+        <img src="img/star-1.png" class="shape-7" alt="image">
+        <img src="img/star-1.png" class="star shape-8" alt="image">
+        <img src="img/star-1.png" class="star shape-9" alt="image">
+        <img src="img/star-1.png" class="star shape-10" alt="image">
+        <img src="img/star-1.png" class="star shape-11" alt="image">
+    </div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light ginbo-navbar">
+        <div class="container">
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="icofont-navigation-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse nav-main justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="primary-menu">
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="#header-section">
+                            خانه
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-ginbo-section">درباره ما</a>
+                    </li>
+                    @if (User!.Identity!.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/index">پنل ادمین</a>
+                        </li>
+                    }
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features-section">ویژگی ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products-section">محصولات</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">نظرات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs-section">سوالات متداول</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us-section">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo-section">
+                <h3 style="color:white">TekeGah</h3>
+            </div>
+
+        </div>
+    </nav>
+    <!-- nav top end -->
+</header>

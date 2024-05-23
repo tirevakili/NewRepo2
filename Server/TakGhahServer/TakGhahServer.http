@@ -1,0 +1,6 @@
+@TakGhahServer_HostAddress = http://localhost:5157
+
+GET {{TakGhahServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

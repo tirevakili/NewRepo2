@@ -1,0 +1,48 @@
+﻿@using TakGhahCore.DTOs.UserModel
+@model LoginViewModel 
+@{
+
+}
+<section class="contact-us-section" id="contact-us-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact-us-area">
+                      <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-form">
+                                <form id="contactForm" method="post" class="contact-form-aqua" asp-action="Login">
+                                    <div class="text-danger" asp-validation-summary="All"></div>
+                                    <div class="row">                                 
+                                        <div class="col-lg-6">
+                                            <h3 class="rtl">ایمیل</h3>
+                                            <input type="email" name="email" 
+                                                   placeholder="ایمیل خود را وارد کنید" 
+                                                   class="contact-frm" asp-for="Email">
+                                        </div>
+                                        
+                                    </div>
+                                 
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h3 class="rtl">پسورد</h3>
+                                            <input type="password" name="Code"
+                                                   placeholder="پسورد را وارد نمایید" 
+                                                   class="contact-frm" asp-for="Code">
+                                        </div>
+                                    </div>
+                                    <div class="btn-submit">
+                                        <input id="form-submit" type="submit" value="ورود" class="contact-btn">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>

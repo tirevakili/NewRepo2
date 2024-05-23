@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Samim";
+    src: url("../fonts/Samim-FD.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Samim-FD.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */ url("../fonts/Samim-FD.woff") format("woff"),
+        /* Pretty Modern Browsers */ url("../fonts/Samim-FD.woff2") format("woff2"),
+        /* Pretty Modern Browsers */ url("../fonts/Samim-FD.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+option,
+p,
+div,
+input::placeholder,
+textarea,
+label,
+button,
+em, strong,
+li {
+    font-family: "Samim" !important;
+}
+
+* {
+    letter-spacing: 0 !important;
+}
+
+a.nav-link {
+    font-size: 16px !important;
+}
+
+#primary-menu {
+/*    margin-left:400px;*/
+}
+
+.icon-box-area {
+    position: absolute;
+    right: 30px !important;
+}
+
+.client-details {
+    padding-left: 0 !important;
+    text-align: center !important;
+    margin-right: 100px !important;
+}
+
+.faqs-btn-link.collapsed, .faqs-section .faqs-accordion .faqs-card .faqs-card-header .faqs-btn-link, .card-body.faqs-card-body {
+    text-align: right !important;
+}
+
+.btn.btn-link.faqs-btn-link.collapsed:before {
+    left: 1.2rem !important;
+}
+.subscribe-section{
+    margin-bottom: 100px !important;
+}
+#contact-us-section{
+    margin-top: 80px !important;
+}
+@media (max-width: 991px) {
+    .navbar-nav{
+        text-align: right !important;
+    }
+    .navbar-toggler{
+        margin-right: 0 !important;
+    }
+}
+
